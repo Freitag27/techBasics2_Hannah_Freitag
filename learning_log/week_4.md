@@ -31,10 +31,12 @@ make a tool that can convert music into buzzer sounds (?).
 #### C++ to remember: 
 I thought I should probably make a list of the "vocabulary" we learn for C++:
 
+```cpp
 pinMode(buttonPin, INPUT_PULLUP)
 digitalWrite
 Serial.println
 tone(pin, frequency, duraction)
+````
 
 #### General thoughts 
 I'm noticing that in the course we're starting to write code ourselves in C++, which is something I don't feel very confident in.
