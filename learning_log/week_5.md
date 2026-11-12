@@ -9,6 +9,7 @@ there are screws with which you could screw the servo horn onto the motor, but t
 
 
 #### Connecting a servo: 
+```cpp
 #include <Servo.h> // include servo library 
 Servo myservo; // declaring a variable from the library (Class Servo) with the title 'mysevo'(Variable). Can also control multiple servos so naming them is good especially then.
 void setup() {
@@ -25,10 +26,10 @@ void loop() {
 }
 delay (2000)
 // zero and 180 may shift when you stop the motor while it is in the middle, 
-
+```
 
 #### We used two servo motors to explore how the can work together in 3 dimensions.
-´´cpp
+```cpp
  #include <Servo.h>
 Servo servo1;
 Servo servo2;
@@ -72,3 +73,4 @@ void loop (){
   Serial.print(" ");
     Serial.print ("button");
  Serial.println (button);
+```
